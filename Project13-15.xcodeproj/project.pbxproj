@@ -13,6 +13,8 @@
 		7BECE96E2A08BE3F00B03C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BECE96C2A08BE3F00B03C86 /* Main.storyboard */; };
 		7BECE9702A08BE4100B03C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BECE96F2A08BE4100B03C86 /* Assets.xcassets */; };
 		7BECE9732A08BE4100B03C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BECE9712A08BE4100B03C86 /* LaunchScreen.storyboard */; };
+		7BECE97B2A08C5AE00B03C86 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BECE97A2A08C5AE00B03C86 /* Countries.swift */; };
+		7BECE9872A08D1FD00B03C86 /* countryList.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BECE9862A08D1FD00B03C86 /* countryList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7BECE96F2A08BE4100B03C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BECE9722A08BE4100B03C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BECE9742A08BE4100B03C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BECE97A2A08C5AE00B03C86 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		7BECE9862A08D1FD00B03C86 /* countryList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				7BECE9662A08BE3F00B03C86 /* AppDelegate.swift */,
 				7BECE9682A08BE3F00B03C86 /* SceneDelegate.swift */,
 				7BECE96A2A08BE3F00B03C86 /* ViewController.swift */,
+				7BECE97A2A08C5AE00B03C86 /* Countries.swift */,
 				7BECE96C2A08BE3F00B03C86 /* Main.storyboard */,
 				7BECE96F2A08BE4100B03C86 /* Assets.xcassets */,
 				7BECE9712A08BE4100B03C86 /* LaunchScreen.storyboard */,
 				7BECE9742A08BE4100B03C86 /* Info.plist */,
+				7BECE9862A08D1FD00B03C86 /* countryList.json */,
 			);
 			path = "Project13-15";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BECE9872A08D1FD00B03C86 /* countryList.json in Resources */,
 				7BECE9732A08BE4100B03C86 /* LaunchScreen.storyboard in Resources */,
 				7BECE9702A08BE4100B03C86 /* Assets.xcassets in Resources */,
 				7BECE96E2A08BE3F00B03C86 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			files = (
 				7BECE96B2A08BE3F00B03C86 /* ViewController.swift in Sources */,
 				7BECE9672A08BE3F00B03C86 /* AppDelegate.swift in Sources */,
+				7BECE97B2A08C5AE00B03C86 /* Countries.swift in Sources */,
 				7BECE9692A08BE3F00B03C86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
