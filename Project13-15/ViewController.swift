@@ -30,8 +30,25 @@ class ViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "CountryCell", for: indexPath)
         cell.textLabel?.text = country.name
+        cell.textLabel?.font = UIFont.systemFont(ofSize: 25)
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let country = countries[indexPath.row]
+        
+        if let vc = storyboard?.instantiateViewController(identifier: "DetailCountry") as? DetailViewController {
+            vc.countryName = country.name
+            vc.capital = country.capital
+            vc.president = country.president
+            vc.language = country.language
+            vc.currency = country.currency
+            vc.area = country.area
+            vc.population = country.population
+            
+            navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
     func loadData() {
